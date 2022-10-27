@@ -1,14 +1,14 @@
 .nav-bar {
-    background-color: white;
-    padding: 10px;
-    border: 3px solid;
-    text-align: center;
-    list-style-type: none;
+  background-color: white;
+  padding: 10px;
+  border: 3px solid;
+  text-align: center;
+  list-style-type: none;
 }
 
 .navbar-links-item {
-    padding-left: 20px;
-    padding-right: 20px;
-    display: inline-block;
-    font-size: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  display: inline-block;
+  font-size: 20px;
 }
