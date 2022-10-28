@@ -35,7 +35,7 @@ function App() {
         </div>
         <Routes>
           <Route path="/" element={() => (<h2>test</h2>)} />
-          <Route path="/addsession" element={<AddSession />} />
+          <Route path="/add-session" element={<AddSession />} />
           <Route path="/history" element={<History />} />
         </Routes>
       </Router>
