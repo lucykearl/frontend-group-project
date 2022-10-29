@@ -18,7 +18,7 @@ const AutoComplete = ({onSelect}) => {
         options={exercises}
         groupBy={(option) => option.type}
         getOptionLabel={(option) => option.title}
-        onChange={(event, value) => setSelected(value.title)}
+        onChange={(event, value) => setSelected(value)}
         sx={{ width: 300 }}
         renderInput={(params) => <TextField {...params} label="Select Exercise" />}
       />

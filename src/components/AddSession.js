@@ -4,16 +4,18 @@ import AutoComplete from "./AutoComplete";
 
 const AddSessionPage = () => {
 
-  const [selectedOption, setSelectedOption] = useState([]);
+  const [selectedOptions, setSelectedOptions] = useState([]);
 
   const handleSelect = (selected) => {
-    setSelectedOption(selected)
+    setSelectedOptions([...selectedOptions, selected])
   }
 
   return (
     <div className="add-session-page">
-      <AutoComplete onSelect={handleSelect}/>
-      <AddSessionCard selected={selectedOption}/>
+      <AutoComplete onSelect={handleSelect} />
+      {selectedOptions.map((exercise) => (
+        <AddSessionCard key={exercise._id} {...exercise} />
+      ))}
     </div>
     
   )
