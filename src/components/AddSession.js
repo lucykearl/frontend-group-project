@@ -1,20 +1,14 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import {Autocomplete, TextField} from '@mui/material';
+import axios from "axios";
 
 const AddSessionPage = () => {
 
-  const exercises = [
-    { title: 'Bicep Curl', type: 'Arms' },
-    { title: 'Hammer Curl', type: 'Arms' },
-    { title: 'Cactus Arm', type: 'Arms' },
-    { title: 'Skull Crusher', type: 'Arms' },
-    { title: 'Upright Row', type: 'Arms' },
-    { title: 'Romanian Deadlift', type: 'Legs' },
-    { title: 'Squat', type: 'Legs' },
-    { title: 'Lunge', type: 'Legs' },
-    { title: 'Leg Press', type: 'Legs' },
-    { title: 'Leg Curl', type: 'Legs' }
-  ]
+  const [exercises, setExercises] = useState([])
+
+  useEffect(() => {
+    axios.get('http://localhost:5000/exercises').then(({ data }) => setExercises(data[0].exercises))
+  }, [])
 
   return (
     <Autocomplete
