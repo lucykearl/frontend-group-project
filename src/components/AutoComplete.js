@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { Autocomplete, TextField } from '@mui/material';
 import axios from "axios";
+import data from "../data/exercises.json";
 
 const AutoComplete = ({onSelect}) => {
 
@@ -8,8 +9,9 @@ const AutoComplete = ({onSelect}) => {
   const [selected, setSelected] = useState('')
 
   useEffect(() => {
-    axios.get('http://localhost:5000/exercises').then(({ data }) => setExercises(data))
-  }, [])
+    // axios.get('http://localhost:5000/exercises').then(({ data }) => setExercises(data))
+    setExercises(data);
+  }, []) 
 
   return (
     <div className="auto-complete">
