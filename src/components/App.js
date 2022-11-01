@@ -2,7 +2,6 @@ import React from "react";
 import { useAuth0 } from "@auth0/auth0-react";
 import "../styles/app.css";
 import NavBar from "./NavBar";
-import "../styles/navbar.css";
 import { Routes, Route } from "react-router-dom";
 import AddSession from "./AddSession";
 import History from "./History";
