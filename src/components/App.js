@@ -18,7 +18,7 @@ function App() {
     return <div>Oops... {error.message}</div>;
   }
   if (!isAuthenticated) {
-    return <button onClick={loginWithRedirect}>Log in</button>
+    return <button onClick={loginWithRedirect}>Log in</button>;
   }
 
   return (
@@ -33,7 +33,7 @@ function App() {
           </button>
         </div>
         <Routes>
-          <Route path="/" element={() => (<h2>test</h2>)} />
+          <Route path="/" element={() => <h2>test</h2>} />
           <Route path="/add-session" element={<AddSession />} />
           <Route path="/history" element={<History />} />
         </Routes>

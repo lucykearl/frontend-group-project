@@ -1,17 +1,16 @@
 import React, { useEffect, useState } from "react";
-import { Autocomplete, TextField } from '@mui/material';
+import { Autocomplete, TextField } from "@mui/material";
 import axios from "axios";
 import data from "../data/exercises.json";
 
-const AutoComplete = ({onSelect}) => {
-
-  const [exercises, setExercises] = useState([])
-  const [selected, setSelected] = useState('')
+const AutoComplete = ({ onSelect }) => {
+  const [exercises, setExercises] = useState([]);
+  const [selected, setSelected] = useState("");
 
   useEffect(() => {
     // axios.get('http://localhost:5000/exercises').then(({ data }) => setExercises(data))
     setExercises(data);
-  }, []) 
+  }, []);
 
   return (
     <div className="auto-complete">
@@ -22,11 +21,15 @@ const AutoComplete = ({onSelect}) => {
         getOptionLabel={(option) => option.title}
         onChange={(event, value) => setSelected(value)}
         sx={{ width: 300 }}
-        renderInput={(params) => <TextField {...params} label="Select Exercise" />}
+        renderInput={(params) => (
+          <TextField {...params} label="Select Exercise" />
+        )}
       />
-      <button type="button" onClick={() => onSelect(selected)}>Add</button>
+      <button type="button" onClick={() => onSelect(selected)}>
+        Add
+      </button>
     </div>
-  )
+  );
 };
 
 export default AutoComplete;
