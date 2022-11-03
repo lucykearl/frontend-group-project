@@ -1,14 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Pacifico&family=Signika+Negative:wght@300;400&display=swap');
+
 .nav-bar {
-  background-color: white;
-  padding: 10px;
-  border: 3px solid;
+  background-color: #47B5FF;
+  padding: 3px;
   text-align: center;
   list-style-type: none;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
 }
 
 .navbar-links-item {
   padding-left: 20px;
   padding-right: 20px;
   display: inline-block;
-  font-size: 20px;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 40px;
+  width: 25%;
+  cursor: pointer;
 }
+
+a:link {
+  color: #06283D;
+}
+
+a:visited {
+  color: #f0aaa9;
+}
+
+.logout {
+  position: fixed;
+  top: 0;
+  font-family: 'Bebas Neue', cursive;
+}
+
+.button {
+  background: #06283D;
+  border-radius: 999px;
+  box-shadow: #47B5FF 0 10px 20px -10px;
+  box-sizing: border-box;
+  color: #f0aaa9;
+  cursor: pointer;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  opacity: 1;
+  outline: 0 solid transparent;
+  padding: 8px 18px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: fit-content;
+  word-break: break-word;
+  border: 0;
+}
+

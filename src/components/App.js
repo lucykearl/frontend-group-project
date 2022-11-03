@@ -7,6 +7,8 @@ import { Routes, Route } from "react-router-dom";
 import AddSession from "./AddSession";
 import History from "./History";
 import { BrowserRouter as Router } from "react-router-dom";
+import "../styles/app.css";
+import "../index.css";
 
 function App() {
   const { isLoading, isAuthenticated, error, user, loginWithRedirect, logout } =
@@ -19,22 +21,25 @@ function App() {
     return <div>Oops... {error.message}</div>;
   }
   if (!isAuthenticated) {
-    return <button onClick={loginWithRedirect}>Log in</button>
+    return <button onClick={loginWithRedirect}>Log in</button>;
   }
 
   return (
-    <div className="Mainmenu">
+    <div className="mainmenu">
+      <h2 className="heading">REP</h2>
       <Router>
-        <h2>REP</h2>
         <NavBar />
-        <div>
+        <div className="logout">
           Hello {user.name}{" "}
-          <button onClick={() => logout({ returnTo: window.location.origin })}>
+          <button
+            className="button"
+            onClick={() => logout({ returnTo: window.location.origin })}
+          >
             Log out
           </button>
         </div>
         <Routes>
-          <Route path="/" element={() => (<h2>test</h2>)} />
+          <Route path="/" element={() => <h2>test</h2>} />
           <Route path="/add-session" element={<AddSession />} />
           <Route path="/history" element={<History />} />
         </Routes>

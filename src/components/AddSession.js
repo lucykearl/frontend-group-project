@@ -2,10 +2,7 @@ import React from "react";
 import AutoComplete from "./AutoComplete";
 
 const AddSessionPage = () => {
-
-  return (
-    <AutoComplete />
-  )
+  return <AutoComplete />;
 };
 
 export default AddSessionPage;
