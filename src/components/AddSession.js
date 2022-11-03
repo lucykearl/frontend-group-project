@@ -3,9 +3,6 @@ import AddSessionCard from "./AddSessionCard";
 import AutoComplete from "./AutoComplete";
 
 const AddSessionPage = () => {
-<<<<<<< HEAD
-  return <AutoComplete />;
-=======
   const [selectedOptions, setSelectedOptions] = useState([]);
 
   const handleSelect = (selected) => {
@@ -25,7 +22,6 @@ const AddSessionPage = () => {
       <button onClick={handleFinish}>Finish</button>
     </div>
   );
->>>>>>> 255388dd8c7bbc3c964d9ff54458fc77a6ee9976
 };
 
 export default AddSessionPage;
