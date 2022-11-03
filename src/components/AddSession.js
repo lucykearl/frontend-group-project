@@ -4,10 +4,19 @@ import AutoComplete from "./AutoComplete";
 
 const AddSessionPage = () => {
   const [selectedOptions, setSelectedOptions] = useState([]);
+  const [newSets, setNewSets] = useState([])
+  const [setID, setSetID] = useState(1)
 
   const handleSelect = (selected) => {
     setSelectedOptions([...selectedOptions, selected]);
   };
+
+  const handleSets = (sets) => {
+    console.log(sets)
+    setSetID(setID + 1)
+    setNewSets([...newSets, sets])
+    console.log(newSets)
+  }
 
   const handleFinish = (session) => {
     
@@ -17,7 +26,7 @@ const AddSessionPage = () => {
     <div className="add-session-page">
       <AutoComplete onSelect={handleSelect} />
       {selectedOptions.map((exercise) => (
-        <AddSessionCard key={exercise._id} {...exercise} />
+        <AddSessionCard key={exercise._id} {...exercise} setID={setID} onHandleSets={handleSets} />
       ))}
       <button onClick={handleFinish}>Finish</button>
     </div>
