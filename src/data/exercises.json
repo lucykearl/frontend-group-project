@@ -1,0 +1,247 @@
+[
+  {
+    "title": "Bicep Curl",
+    "type": "Arms",
+    "weight": true,
+    "reps": true,
+    "id": 1
+  },
+  {
+    "title": "Hammer Curl",
+    "type": "Arms",
+    "weight": true,
+    "reps": true,
+    "id": 2
+  },
+  {
+    "title": "Cactus Arm",
+    "type": "Arms",
+    "weight": true,
+    "reps": true,
+    "id": 3
+  },
+  {
+    "title": "Skull Crusher",
+    "type": "Arms",
+    "weight": true,
+    "reps": true,
+    "id": 4
+  },
+  {
+    "title": "Upright Row",
+    "type": "Arms",
+    "weight": true,
+    "reps": true,
+    "id": 5
+  },
+  {
+    "title": "Romanian Deadlift",
+    "type": "Legs",
+    "weight": true,
+    "reps": true,
+    "id": 6
+  },
+  {
+    "title": "Squat",
+    "type": "Legs",
+    "weight": true,
+    "reps": true,
+    "id": 7
+  },
+  {
+    "title": "Lunge",
+    "type": "Legs",
+    "weight": true,
+    "reps": true,
+    "id": 8
+  },
+  {
+    "title": "Leg Press",
+    "type": "Legs",
+    "weight": true,
+    "reps": true,
+    "id": 9
+  },
+  {
+    "title": "Leg Curl",
+    "type": "Legs",
+    "weight": true,
+    "reps": true,
+    "id": 10
+  },
+  {
+    "title": "Crunch",
+    "type": "Core",
+    "weight": false,
+    "reps": true,
+    "id": 11
+  },
+  {
+    "title": "Flat Leg Raise",
+    "type": "Core",
+    "weight": false,
+    "reps": true,
+    "id": 12
+  },
+  {
+    "title": "Plank",
+    "type": "Core",
+    "weight": false,
+    "reps": true,
+    "id": 13
+  },
+  {
+    "title": "Russian Twist",
+    "type": "Core",
+    "weight": false,
+    "reps": true,
+    "id": 14
+  },
+  {
+    "title": "Sit Up",
+    "type": "Core",
+    "weight": false,
+    "reps": true,
+    "id": 15
+  },
+  {
+    "title": "Bench Press",
+    "type": "Chest",
+    "weight": true,
+    "reps": true,
+    "id": 16
+  },
+  {
+    "title": "Incline Bench Press",
+    "type": "Chest",
+    "weight": true,
+    "reps": true,
+    "id": 17
+  },
+  {
+    "title": "Chest Fly",
+    "type": "Chest",
+    "weight": true,
+    "reps": true,
+    "id": 18
+  },
+  {
+    "title": "Cable Crossover",
+    "type": "Chest",
+    "weight": true,
+    "reps": true,
+    "id": 19
+  },
+  {
+    "title": "Push Up",
+    "type": "Chest",
+    "weight": false,
+    "reps": true,
+    "id": 20
+  },
+  {
+    "title": "Deadlift (Barbell)",
+    "type": "Back",
+    "weight": true,
+    "reps": true,
+    "id": 21
+  },
+  {
+    "title": "Lat Pull Down (Cable)",
+    "type": "Back",
+    "weight": true,
+    "reps": true,
+    "id": 22
+  },
+  {
+    "title": "Bent Over One Arm Row (Dumbbell)",
+    "type": "Back",
+    "weight": true,
+    "reps": true,
+    "id": 23
+  },
+  {
+    "title": "Chin Up",
+    "type": "Back",
+    "weight": false,
+    "reps": true,
+    "id": 24
+  },
+  {
+    "title": "Seated Row (Cable)",
+    "type": "Back",
+    "weight": true,
+    "reps": true,
+    "id": 25
+  },
+  {
+    "title": "Arnold Press (Dumbbell)",
+    "type": "Shoulders",
+    "weight": true,
+    "reps": true,
+    "id": 26
+  },
+  {
+    "title": "Front Raise (Cable)",
+    "type": "Shoulders",
+    "weight": true,
+    "reps": true,
+    "id": 27
+  },
+  {
+    "title": "Overhead Press (Barbell)",
+    "type": "Shoulders",
+    "weight": true,
+    "reps": true,
+    "id": 28
+  },
+  {
+    "title": "Push Press (Barbell)",
+    "type": "Shoulders",
+    "weight": true,
+    "reps": true,
+    "id": 29
+  },
+  {
+    "title": "Upright Row (Dumbbell)",
+    "type": "Shoulders",
+    "weight": true,
+    "reps": true,
+    "id": 30
+  },
+  {
+    "title": "Kettlebell Swings",
+    "type": "Other",
+    "weight": true,
+    "reps": true,
+    "id": 31
+  },
+  {
+    "title": "Kettlebell Thruster",
+    "type": "Other",
+    "weight": true,
+    "reps": true,
+    "id": 32
+  },
+  {
+    "title": "Kettlebell Turkish Get Up",
+    "type": "Other",
+    "weight": true,
+    "reps": true,
+    "id": 33
+  },
+  {
+    "title": "Burpee",
+    "type": "Other",
+    "weight": false,
+    "reps": true,
+    "id": 34
+  },
+  {
+    "title": "Jumping Jack",
+    "type": "Other",
+    "weight": false,
+    "reps": true,
+    "id": 35
+  }
+]

@@ -1,25 +1,35 @@
 import React, { useEffect, useState } from "react";
-import {Autocomplete, TextField} from '@mui/material';
+import { Autocomplete, TextField } from "@mui/material";
 import axios from "axios";
+import data from "../data/exercises.json";
 
-const AutoComplete = () => {
-
-  const [exercises, setExercises] = useState([])
+const AutoComplete = ({ onSelect }) => {
+  const [exercises, setExercises] = useState([]);
+  const [selected, setSelected] = useState("");
 
   useEffect(() => {
-    axios.get('http://localhost:5000/exercises').then(({ data }) => setExercises(data[0].exercises))
-  }, [])
+    // axios.get('http://localhost:5000/exercises').then(({ data }) => setExercises(data))
+    setExercises(data);
+  }, []);
 
   return (
-    <Autocomplete
-      id="grouped-exercises"
-      options={exercises}
-      groupBy={(option) => option.type}
-      getOptionLabel={(option) => option.title}
-      sx={{ width: 300 }}
-      renderInput={(params) => <TextField {...params} label="Select Exercise" />}
-    />
-  )
+    <div className="auto-complete">
+      <Autocomplete
+        id="grouped-exercises"
+        options={exercises}
+        groupBy={(option) => option.type}
+        getOptionLabel={(option) => option.title}
+        onChange={(event, value) => setSelected(value)}
+        sx={{ width: 300 }}
+        renderInput={(params) => (
+          <TextField {...params} label="Select Exercise" />
+        )}
+      />
+      <button type="button" onClick={() => onSelect(selected)}>
+        Add
+      </button>
+    </div>
+  );
 };
 
 export default AutoComplete;
