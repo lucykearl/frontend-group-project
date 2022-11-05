@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "../styles/app.css";
 
-const AddSessionCard = ({ title, setID, weight, reps, onHandleSets }) => {
+const AddSessionCard = ({ title, setID, onHandleRemoveSet, onHandleSets }) => {
 
   const [inputs, setInputs] = useState([{ setID: setID, title: title, weight: "", reps: "" }]);
 
@@ -13,12 +13,7 @@ const AddSessionCard = ({ title, setID, weight, reps, onHandleSets }) => {
 
   const handleAddSet = (e) => {
     e.preventDefault();
-<<<<<<< HEAD
-    console.log(inputs);
-    let newInputs = { weight: "", reps: "" };
-=======
     let newInputs = { setID: setID, title: title, weight: inputs[inputs.length - 1].weight, reps: inputs[inputs.length - 1].reps };
->>>>>>> 494f87f190e4f3bb53c2986caa8f270bd7182492
     setInputs([...inputs, newInputs]);
     onHandleSets(newInputs)
   };
@@ -26,7 +21,9 @@ const AddSessionCard = ({ title, setID, weight, reps, onHandleSets }) => {
   const handleRemoveSet = (index, e) => {
     e.preventDefault();
     let data = [...inputs];
-    data.splice(index, 1);
+    let removedSet = data.splice(index, 1);
+    console.log(removedSet)
+    onHandleRemoveSet(removedSet)
     setInputs(data);
   };
 
