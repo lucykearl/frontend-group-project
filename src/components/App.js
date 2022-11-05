@@ -44,12 +44,11 @@ function App() {
           </button>
         </div>
         <Routes>
-          <Route path="/" element={() => <h2>Test</h2>} />
+          <Route path="/" element={<Charts />} />
           <Route path="/add-session" element={<AddSession />} />
           <Route path="/history" element={<History />} />
         </Routes>
       </Router>
-      <Charts />
     </div>
   );
 }
