@@ -5,8 +5,8 @@ import NavBar from "./NavBar";
 import { Routes, Route } from "react-router-dom";
 import AddSession from "./AddSession";
 import History from "./History";
+import Charts from "./Charts";
 import { BrowserRouter as Router } from "react-router-dom";
-import "../styles/app.css";
 import "../index.css";
 
 function App() {
@@ -49,6 +49,7 @@ function App() {
           <Route path="/history" element={<History />} />
         </Routes>
       </Router>
+      <Charts />
     </div>
   );
 }
