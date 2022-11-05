@@ -34,25 +34,5 @@ a:visited {
   font-family: 'Bebas Neue', cursive;
 }
 
-.button {
-  background: #06283D;
-  border-radius: 999px;
-  box-shadow: #47B5FF 0 10px 20px -10px;
-  box-sizing: border-box;
-  color: #f0aaa9;
-  cursor: pointer;
-  font-family: 'Bebas Neue', cursive;
-  font-size: 16px;
-  font-weight: 700;
-  line-height: 24px;
-  opacity: 1;
-  outline: 0 solid transparent;
-  padding: 8px 18px;
-  user-select: none;
-  -webkit-user-select: none;
-  touch-action: manipulation;
-  width: fit-content;
-  word-break: break-word;
-  border: 0;
-}
+
 

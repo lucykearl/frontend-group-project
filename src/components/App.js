@@ -20,7 +20,13 @@ function App() {
     return <div>Oops... {error.message}</div>;
   }
   if (!isAuthenticated) {
-    return <button onClick={loginWithRedirect}>Log in</button>;
+    return (
+      <div className="wrapper">
+        <button className="button button--login" onClick={loginWithRedirect}>
+          Log in
+        </button>
+      </div>
+    );
   }
 
   return (

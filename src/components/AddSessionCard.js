@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import "../styles/app.css";
 
 const AddSessionCard = ({ title }) => {
   const [inputs, setInputs] = useState([{ weight: "", reps: "" }]);
@@ -11,7 +12,7 @@ const AddSessionCard = ({ title }) => {
 
   const handleAddSet = (e) => {
     e.preventDefault();
-    console.log(inputs)
+    console.log(inputs);
     let newInputs = { weight: "", reps: "" };
     setInputs([...inputs, newInputs]);
   };
@@ -21,7 +22,7 @@ const AddSessionCard = ({ title }) => {
     let data = [...inputs];
     data.splice(index, 1);
     setInputs(data);
-  }
+  };
 
   return (
     <div className="add-session-card">
@@ -30,28 +31,33 @@ const AddSessionCard = ({ title }) => {
           <label>{title}</label>
         </div>
         <div className="add-session-card--sets">
-            {inputs.map((input, index) => {
+          {inputs.map((input, index) => {
             return (
-                <div key={index}>
+              <div key={index}>
                 <label>{index + 1}</label>
                 <input
-                    name="weight"
-                    placeholder={0}
-                    value={input.weight}
-                    onChange={(event) => handleFormChange(index, event)}
+                  name="weight"
+                  placeholder={0}
+                  value={input.weight}
+                  onChange={(event) => handleFormChange(index, event)}
                 ></input>
                 <input
-                    name="reps"
-                    placeholder={0}
-                    value={input.reps}
-                    onChange={(event) => handleFormChange(index, event)}
+                  name="reps"
+                  placeholder={0}
+                  value={input.reps}
+                  onChange={(event) => handleFormChange(index, event)}
                 ></input>
-                <button onClick={(event) => handleRemoveSet(index, event)}>Remove</button>
-                </div>
-            )
+                <button
+                  className="button--remove"
+                  onClick={(event) => handleRemoveSet(index, event)}
+                >
+                  Remove
+                </button>
+              </div>
+            );
           })}
         </div>
-        <button type="button" onClick={handleAddSet}>
+        <button className="button--addset" type="button" onClick={handleAddSet}>
           Add Set
         </button>
       </form>
