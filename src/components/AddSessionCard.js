@@ -2,8 +2,9 @@ import React, { useState } from "react";
 import "../styles/app.css";
 
 const AddSessionCard = ({ title, setID, onHandleRemoveSet, onHandleSets }) => {
-
-  const [inputs, setInputs] = useState([{ setID: setID, title: title, weight: "", reps: "" }]);
+  const [inputs, setInputs] = useState([
+    { setID: setID, title: title, weight: "", reps: "" },
+  ]);
 
   const handleFormChange = (index, event) => {
     let data = [...inputs];
@@ -13,17 +14,22 @@ const AddSessionCard = ({ title, setID, onHandleRemoveSet, onHandleSets }) => {
 
   const handleAddSet = (e) => {
     e.preventDefault();
-    let newInputs = { setID: setID, title: title, weight: inputs[inputs.length - 1].weight, reps: inputs[inputs.length - 1].reps };
+    let newInputs = {
+      setID: setID,
+      title: title,
+      weight: inputs[inputs.length - 1].weight,
+      reps: inputs[inputs.length - 1].reps,
+    };
     setInputs([...inputs, newInputs]);
-    onHandleSets(newInputs)
+    onHandleSets(newInputs);
   };
 
   const handleRemoveSet = (index, e) => {
     e.preventDefault();
     let data = [...inputs];
     let removedSet = data.splice(index, 1);
-    console.log(removedSet)
-    onHandleRemoveSet(removedSet)
+    console.log(removedSet);
+    onHandleRemoveSet(removedSet);
     setInputs(data);
   };
 
