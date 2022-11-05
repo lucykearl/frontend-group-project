@@ -1,10 +1,16 @@
 import React, { useState } from "react";
 import "../styles/app.css";
 
+<<<<<<< HEAD
 const AddSessionCard = ({ title, setID, weight, reps, onHandleSets }) => {
   const [inputs, setInputs] = useState([
     { setID: setID, title: title, weight: "", reps: "" },
   ]);
+=======
+const AddSessionCard = ({ title, setID, onHandleRemoveSet, onHandleSets }) => {
+
+  const [inputs, setInputs] = useState([{ setID: setID, title: title, weight: "", reps: "" }]);
+>>>>>>> bb27dc0412ada6789c464451e7122b414113632b
 
   const handleFormChange = (index, event) => {
     let data = [...inputs];
@@ -14,6 +20,7 @@ const AddSessionCard = ({ title, setID, weight, reps, onHandleSets }) => {
 
   const handleAddSet = (e) => {
     e.preventDefault();
+<<<<<<< HEAD
     console.log(inputs);
     let newInputs = {
       setID: setID,
@@ -21,6 +28,9 @@ const AddSessionCard = ({ title, setID, weight, reps, onHandleSets }) => {
       weight: inputs[inputs.length - 1].weight,
       reps: inputs[inputs.length - 1].reps,
     };
+=======
+    let newInputs = { setID: setID, title: title, weight: inputs[inputs.length - 1].weight, reps: inputs[inputs.length - 1].reps };
+>>>>>>> bb27dc0412ada6789c464451e7122b414113632b
     setInputs([...inputs, newInputs]);
     onHandleSets(newInputs);
   };
@@ -28,7 +38,9 @@ const AddSessionCard = ({ title, setID, weight, reps, onHandleSets }) => {
   const handleRemoveSet = (index, e) => {
     e.preventDefault();
     let data = [...inputs];
-    data.splice(index, 1);
+    let removedSet = data.splice(index, 1);
+    console.log(removedSet)
+    onHandleRemoveSet(removedSet)
     setInputs(data);
   };
 
