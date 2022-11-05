@@ -16,7 +16,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-   
 }
 
 .button {
@@ -98,13 +97,13 @@
     border: 0;
   }
 
-  .dropdown--menu {
-    background-color: white;
-    border-radius: 5%;
-  }
+.dropdown--menu {
+  background-color: white;
+  border-radius: 5%;
+}
 
 .add-session-page {
   overflow-y: overlay;
-  height: 400px;
- 
+  max-height: 380px;
+  padding-top: 2%;
 }

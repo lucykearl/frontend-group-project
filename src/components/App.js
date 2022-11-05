@@ -44,7 +44,7 @@ function App() {
           </button>
         </div>
         <Routes>
-          <Route path="/" element={() => <h2>test</h2>} />
+          <Route path="/" element={() => <h2>Test</h2>} />
           <Route path="/add-session" element={<AddSession />} />
           <Route path="/history" element={<History />} />
         </Routes>

@@ -9,7 +9,9 @@ const AutoComplete = ({ onSelect }) => {
   const [selected, setSelected] = useState("");
 
   useEffect(() => {
-    // axios.get('http://localhost:5000/exercises').then(({ data }) => setExercises(data))
+    axios
+      .get("http://localhost:5000/exercises")
+      .then(({ data }) => setExercises(data));
     setExercises(data);
   }, []);
 
