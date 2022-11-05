@@ -1,9 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Pacifico&family=Signika+Negative:wght@300;400&display=swap');
 
-/*.mainmenu {
-    background-color: #06283D;
-}*/
-
 .heading {
     color: #f0aaa9;
     background-color: #06283D;
@@ -11,6 +7,8 @@
     font-family: 'Bebas Neue', cursive;
     font-size: 100px;
     font-weight: 800px;
+    margin: 5% 0% 3% 0%;
+    padding: 0%;
 }
 
 .wrapper {
@@ -105,3 +103,8 @@
     border-radius: 5%;
   }
 
+.add-session-page {
+  overflow-y: overlay;
+  height: 400px;
+ 
+}

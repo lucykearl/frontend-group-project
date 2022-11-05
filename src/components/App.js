@@ -31,7 +31,7 @@ function App() {
 
   return (
     <div className="mainmenu">
-      <h2 className="heading">REP</h2>
+      <h4 className="heading">REP</h4>
       <Router>
         <NavBar />
         <div className="logout">

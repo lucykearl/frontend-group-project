@@ -2,8 +2,9 @@ import React, { useState } from "react";
 import "../styles/app.css";
 
 const AddSessionCard = ({ title, setID, weight, reps, onHandleSets }) => {
-
-  const [inputs, setInputs] = useState([{ setID: setID, title: title, weight: "", reps: "" }]);
+  const [inputs, setInputs] = useState([
+    { setID: setID, title: title, weight: "", reps: "" },
+  ]);
 
   const handleFormChange = (index, event) => {
     let data = [...inputs];
@@ -13,14 +14,15 @@ const AddSessionCard = ({ title, setID, weight, reps, onHandleSets }) => {
 
   const handleAddSet = (e) => {
     e.preventDefault();
-<<<<<<< HEAD
     console.log(inputs);
-    let newInputs = { weight: "", reps: "" };
-=======
-    let newInputs = { setID: setID, title: title, weight: inputs[inputs.length - 1].weight, reps: inputs[inputs.length - 1].reps };
->>>>>>> 494f87f190e4f3bb53c2986caa8f270bd7182492
+    let newInputs = {
+      setID: setID,
+      title: title,
+      weight: inputs[inputs.length - 1].weight,
+      reps: inputs[inputs.length - 1].reps,
+    };
     setInputs([...inputs, newInputs]);
-    onHandleSets(newInputs)
+    onHandleSets(newInputs);
   };
 
   const handleRemoveSet = (index, e) => {
