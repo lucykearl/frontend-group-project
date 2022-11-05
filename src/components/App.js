@@ -31,7 +31,7 @@ function App() {
 
   return (
     <div className="mainmenu">
-      <h2 className="heading">REP</h2>
+      <h4 className="heading">REP</h4>
       <Router>
         <NavBar />
         <div className="logout">
@@ -44,7 +44,7 @@ function App() {
           </button>
         </div>
         <Routes>
-          <Route path="/" element={() => <h2>test</h2>} />
+          <Route path="/" element={() => <h2>Test</h2>} />
           <Route path="/add-session" element={<AddSession />} />
           <Route path="/history" element={<History />} />
         </Routes>

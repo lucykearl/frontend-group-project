@@ -1,23 +1,21 @@
 @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Pacifico&family=Signika+Negative:wght@300;400&display=swap");
 
-/*.mainmenu {
-    background-color: #06283D;
-}*/
-
 .heading {
-  color: #f0aaa9;
-  background-color: #06283d;
-  text-align: center;
-  font-family: "Bebas Neue", cursive;
-  font-size: 100px;
-  font-weight: 800px;
+    color: #f0aaa9;
+    background-color: #06283D;
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 100px;
+    font-weight: 800px;
+    margin: 5% 0% 3% 0%;
+    padding: 0%;
 }
 
 .wrapper {
-  min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .button {
@@ -84,6 +82,7 @@
   border: 0;
 }
 
+
 .button--add {
   background: #47b5ff;
   border-radius: 999px;
@@ -102,4 +101,10 @@
 .dropdown--menu {
   background-color: white;
   border-radius: 5%;
+}
+
+.add-session-page {
+  overflow-y: overlay;
+  max-height: 380px;
+  padding-top: 2%;
 }
