@@ -15,7 +15,6 @@ const Charts = () => {
     ],
   });
 
-  console.log(chartData);
   Chart.register(...registerables);
 
   return (
