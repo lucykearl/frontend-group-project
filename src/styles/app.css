@@ -1,25 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Pacifico&family=Signika+Negative:wght@300;400&display=swap");
 
 .heading {
-<<<<<<< HEAD
-    color: #f0aaa9;
-    background-color: #06283D;
-    text-align: center;
-    font-family: 'Bebas Neue', cursive;
-    font-size: 100px;
-    font-weight: 800px;
-    margin: 10% 0% 3% 0%;
-    padding: 0%;
-=======
   color: #f0aaa9;
   background-color: #06283d;
   text-align: center;
   font-family: "Bebas Neue", cursive;
   font-size: 100px;
   font-weight: 800px;
-  margin: 5% 0% 3% 0%;
+  margin: 10% 0% 3% 0%;
   padding: 0%;
->>>>>>> 91ab4ae2ff097f8c0468154d5003d7c996294c41
 }
 
 .wrapper {
