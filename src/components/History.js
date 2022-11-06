@@ -9,10 +9,10 @@ function History(){
               <tr>
                   <td>{info.date}</td>
                   <td>{info.time}</td>
-                  <td>{info.exercises[0].title}</td>
-                  <td>{info.exercises[0].weight}</td>
-                  <td>{info.exercises[0].sets}</td>
-                  <td>{info.exercises[0].reps}</td>
+                  <td>{info.exercises.map((exercise) => exercise.title + ", ")}</td>
+                  <td>{info.exercises.map((exercise) => exercise.weight + ", ")}</td>
+                  <td>{info.exercises.map((exercise) => exercise.sets + ", ")}</td>
+                  <td>{info.exercises.map((exercise) => exercise.reps + ", ")}</td>
               </tr>
           )
       }
