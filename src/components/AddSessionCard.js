@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "../styles/app.css";
+import "../styles/add-session-card.css"
 
 const AddSessionCard = ({ title, setID, onHandleRemoveSet, onHandleSets }) => {
   const [inputs, setInputs] = useState([
@@ -28,40 +29,41 @@ const AddSessionCard = ({ title, setID, onHandleRemoveSet, onHandleSets }) => {
     e.preventDefault();
     let data = [...inputs];
     let removedSet = data.splice(index, 1);
-    console.log(removedSet);
     onHandleRemoveSet(removedSet);
     setInputs(data);
   };
 
   return (
     <div className="add-session-card">
-      <form>
+      <form className="add-session-card--form">
         <div className="add-session-card--title">
           <label>{title}</label>
         </div>
         <div className="add-session-card--sets">
           {inputs.map((input, index) => {
             return (
-              <div key={index}>
-                <label>{index + 1}</label>
+              <div className="add-session-card--sets--item" key={index}>
+                <label>SET {index + 1}</label>
                 <input
                   name="weight"
-                  placeholder={0}
+                  placeholder="WEIGHT"
                   value={input.weight}
                   onChange={(event) => handleFormChange(index, event)}
                 ></input>
                 <input
                   name="reps"
-                  placeholder={0}
+                  placeholder="REPS"
                   value={input.reps}
                   onChange={(event) => handleFormChange(index, event)}
                 ></input>
-                <button
-                  className="button--remove"
-                  onClick={(event) => handleRemoveSet(index, event)}
-                >
-                  Remove
-                </button>
+                <div className="button-container">
+                  <button
+                    className="button--remove"
+                    onClick={(event) => handleRemoveSet(index, event)}
+                  >
+                    REMOVE
+                  </button>
+                </div>
               </div>
             );
           })}

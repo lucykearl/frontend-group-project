@@ -4,6 +4,7 @@ import axios from "axios";
 import AddSessionCard from "./AddSessionCard";
 import AutoComplete from "./AutoComplete";
 import "../styles/app.css";
+import "../styles/add-session.css"
 
 const AddSessionPage = () => {
   const [selectedOptions, setSelectedOptions] = useState([]);
@@ -28,6 +29,7 @@ const AddSessionPage = () => {
   const handleSets = (sets) => {
     setSetID(setID + 1);
     setNewSets([...newSets, sets]);
+    console.log(newSets)
   };
 
   const handleRemoveSet = (set) => {
