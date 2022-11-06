@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Pacifico&family=Signika+Negative:wght@300;400&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Pacifico&family=Signika+Negative:wght@300;400&display=swap");
 
 .heading {
     color: #f0aaa9;
@@ -19,83 +19,84 @@
 }
 
 .button {
-    background: #06283D;
-    border-radius: 999px;
-    box-shadow: #47B5FF 0 10px 20px -10px;
-    box-sizing: border-box;
-    margin: 10px;
-    color: #f0aaa9;
-    cursor: pointer;
-    font-family: 'Bebas Neue', cursive;
-    font-size: 16px;
-    border: 0;
-  }
+  background: #06283d;
+  border-radius: 999px;
+  box-shadow: #47b5ff 0 10px 20px -10px;
+  box-sizing: border-box;
+  margin: 10px;
+  color: #f0aaa9;
+  cursor: pointer;
+  font-family: "Bebas Neue", cursive;
+  font-size: 16px;
+  border: 0;
+}
 
-  .button--login {
-    max-height: 150px;
-    width: 300px;
-    font-size: 80px;
-  }
+.button--login {
+  max-height: 150px;
+  width: 300px;
+  font-size: 80px;
+}
 
-  .button--finish {
-    background: #47B5FF;
-    border-radius: 999px;
-    box-shadow: #47B5FF 0 10px 20px -10px;
-    box-sizing: border-box;
-    color: #f0aaa9;
-    width: 120px;
-    height: 50px;
-    margin: 10px;
-    cursor: pointer;
-    font-family: 'Bebas Neue', cursive;
-    font-size: 30px;
-    border: 0;
-  }
+.button--finish {
+  background: #47b5ff;
+  border-radius: 999px;
+  box-shadow: #47b5ff 0 10px 20px -10px;
+  box-sizing: border-box;
+  color: #f0aaa9;
+  width: 120px;
+  height: 50px;
+  margin: 10px;
+  cursor: pointer;
+  font-family: "Bebas Neue", cursive;
+  font-size: 30px;
+  border: 0;
+}
 
-  .button--addset {
-    background: #47B5FF;
-    border-radius: 999px;
-    box-shadow: #47B5FF 0 10px 20px -10px;
-    box-sizing: border-box;
-    color: #f0aaa9;
-    width: 120px;
-    height: 50px;
-    margin: 10px;
-    cursor: pointer;
-    font-family: 'Bebas Neue', cursive;
-    font-size: 30px;
-    border: 0;
-  }
+.button--addset {
+  background: #47b5ff;
+  border-radius: 999px;
+  box-shadow: #47b5ff 0 10px 20px -10px;
+  box-sizing: border-box;
+  color: #f0aaa9;
+  width: 120px;
+  height: 50px;
+  margin: 10px;
+  cursor: pointer;
+  font-family: "Bebas Neue", cursive;
+  font-size: 30px;
+  border: 0;
+}
 
-  .button--remove {
-    background: #47B5FF;
-    border-radius: 999px;
-    box-shadow: #47B5FF 0 10px 20px -10px;
-    box-sizing: border-box;
-    color: #f0aaa9;
-    width: 120px;
-    height: 50px;
-    margin: 10px;
-    cursor: pointer;
-    font-family: 'Bebas Neue', cursive;
-    font-size: 30px;
-    border: 0;
-  }
+.button--remove {
+  background: #47b5ff;
+  border-radius: 999px;
+  box-shadow: #47b5ff 0 10px 20px -10px;
+  box-sizing: border-box;
+  color: #f0aaa9;
+  width: 120px;
+  height: 50px;
+  margin: 10px;
+  cursor: pointer;
+  font-family: "Bebas Neue", cursive;
+  font-size: 30px;
+  border: 0;
+}
 
-  .button--add {
-    background: #47B5FF;
-    border-radius: 999px;
-    box-shadow: #47B5FF 0 10px 20px -10px;
-    box-sizing: border-box;
-    color: #f0aaa9;
-    width: 120px;
-    height: 50px;
-    margin: 10px;
-    cursor: pointer;
-    font-family: 'Bebas Neue', cursive;
-    font-size: 30px;
-    border: 0;
-  }
+
+.button--add {
+  background: #47b5ff;
+  border-radius: 999px;
+  box-shadow: #47b5ff 0 10px 20px -10px;
+  box-sizing: border-box;
+  color: #f0aaa9;
+  width: 120px;
+  height: 50px;
+  margin: 10px;
+  cursor: pointer;
+  font-family: "Bebas Neue", cursive;
+  font-size: 30px;
+  border: 0;
+}
 
 .dropdown--menu {
   background-color: white;
