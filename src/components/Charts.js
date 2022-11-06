@@ -10,7 +10,7 @@ const Charts = () => {
       {
         label: "Number of exercises per session",
         data: data.map((data) => data.exercises?.length),
-        backgroundColor: "#06283D",
+        backgroundColor: "#256d85",
       },
     ],
   });
@@ -19,7 +19,7 @@ const Charts = () => {
   Chart.register(...registerables);
 
   return (
-    <div>
+    <div className="graph---wrapper">
       <Bar data={chartData} />
     </div>
   );
