@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Pacifico&family=Signika+Negative:wght@300;400&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Pacifico&family=Signika+Negative:wght@300;400&display=swap");
 
 .nav-bar {
-  background-color: #47B5FF;
+  background-color: #47b5ff;
   padding: 3px;
   text-align: center;
   list-style-type: none;
@@ -10,18 +10,23 @@
   width: 100%;
 }
 
+@media (max-width: 480px) {
+  .nav-bar {
+  text-align: left;
+  }
+}
+
 .navbar-links-item {
   padding-left: 20px;
   padding-right: 20px;
   display: inline-block;
-  font-family: 'Bebas Neue', cursive;
+  font-family: "Bebas Neue", cursive;
   font-size: 40px;
-  width: 25%;
-  cursor: pointer;
 }
 
 a:link {
-  color: #06283D;
+  color: #06283d;
+  text-decoration: none;
 }
 
 a:visited {
@@ -31,28 +36,5 @@ a:visited {
 .logout {
   position: fixed;
   top: 0;
-  font-family: 'Bebas Neue', cursive;
+  font-family: "Bebas Neue", cursive;
 }
-
-.button {
-  background: #06283D;
-  border-radius: 999px;
-  box-shadow: #47B5FF 0 10px 20px -10px;
-  box-sizing: border-box;
-  color: #f0aaa9;
-  cursor: pointer;
-  font-family: 'Bebas Neue', cursive;
-  font-size: 16px;
-  font-weight: 700;
-  line-height: 24px;
-  opacity: 1;
-  outline: 0 solid transparent;
-  padding: 8px 18px;
-  user-select: none;
-  -webkit-user-select: none;
-  touch-action: manipulation;
-  width: fit-content;
-  word-break: break-word;
-  border: 0;
-}
-

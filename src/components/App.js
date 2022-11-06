@@ -5,8 +5,8 @@ import NavBar from "./NavBar";
 import { Routes, Route } from "react-router-dom";
 import AddSession from "./AddSession";
 import History from "./History";
+import Charts from "./Charts";
 import { BrowserRouter as Router } from "react-router-dom";
-import "../styles/app.css";
 import "../index.css";
 
 function App() {
@@ -20,12 +20,18 @@ function App() {
     return <div>Oops... {error.message}</div>;
   }
   if (!isAuthenticated) {
-    return <button onClick={loginWithRedirect}>Log in</button>;
+    return (
+      <div className="wrapper">
+        <button className="button button--login" onClick={loginWithRedirect}>
+          Log in
+        </button>
+      </div>
+    );
   }
 
   return (
     <div className="mainmenu">
-      <h2 className="heading">REP</h2>
+      <h4 className="heading">REP</h4>
       <Router>
         <NavBar />
         <div className="logout">
@@ -38,7 +44,7 @@ function App() {
           </button>
         </div>
         <Routes>
-          <Route path="/" element={() => <h2>test</h2>} />
+          <Route path="/" element={<Charts />} />
           <Route path="/add-session" element={<AddSession />} />
           <Route path="/history" element={<History />} />
         </Routes>
