@@ -7,7 +7,7 @@
   font-family: "Bebas Neue", cursive;
   font-size: 100px;
   font-weight: 800px;
-  margin: 5% 0% 3% 0%;
+  margin: 10% 0% 3% 0%;
   padding: 0%;
 }
 
@@ -106,4 +106,8 @@
   overflow-y: overlay;
   max-height: 380px;
   padding-top: 2%;
+}
+
+.graph---wrapper {
+padding: 0% 5% 8% 5%;
 }
