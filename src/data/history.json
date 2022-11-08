@@ -7,26 +7,22 @@
       {
         "title": "Bicep Curl",
         "weight": "10kg",
-        "sets": 4,
-        "reps": 10
+       "reps": 10
       },
       {
         "title": "Hammer Curl",
         "weight": "10kg",
-        "sets": 4,
-        "reps": 10
+       "reps": 10
       },
       {
         "title": "Skull Crusher",
         "weight": "15kg",
-        "sets": 4,
-        "reps": 10
+       "reps": 10
       },
       {
         "title": "Upright Row",
         "weight": "10kg",
-        "sets": 4,
-        "reps": 10
+       "reps": 10
       }
     ]
   },
@@ -38,14 +34,12 @@
       {
         "title": "Bench Press",
         "weight": "25kg",
-        "sets": 4,
         "reps": 10
       },
       {
         "title": "Incline Bench Press",
         "weight": "20kg",
-        "sets": 4,
-        "reps": 10
+       "reps": 10
       },
       {
         "title": "Chest Fly",
@@ -56,8 +50,7 @@
       {
         "title": "Cable Crossover",
         "weight": "10kg",
-        "sets": 4,
-        "reps": 10
+       "reps": 10
       }
     ]
   },
@@ -69,20 +62,17 @@
       {
         "title": "Deadlift (Barbell)",
         "weight": "20kg",
-        "sets": 4,
-        "reps": 10
+       "reps": 10
       },
       {
         "title": "Lat Pull Down (Cable)",
         "weight": "20kg",
-        "sets": 4,
-        "reps": 5
+       "reps": 5
       },
       {
         "title": "Bent Over One Arm Row (Dumbbell)",
         "weight": "20kg",
-        "sets": 4,
-        "reps": 5
+       "reps": 5
       }
     ]
   },
@@ -94,26 +84,22 @@
       {
         "title": "Arnold Press (Dumbbell)",
         "weight": "70kg",
-        "sets": 4,
-        "reps": 10
+       "reps": 10
       },
       {
         "title": "Front Raise (Cable)",
         "weight": "10kg",
-        "sets": 4,
-        "reps": 10
+       "reps": 10
       },
       {
         "title": "Push Press (Barbell)",
         "weight": "10kg",
-        "sets": 4,
-        "reps": 10
+       "reps": 10
       },
       {
         "title": "Overhead Press (Barbell)",
         "weight": "30kg",
-        "sets": 4,
-        "reps": 10
+       "reps": 10
       }
     ]
   },
@@ -125,26 +111,22 @@
       {
         "title": "Squat",
         "weight": "70kg",
-        "sets": 4,
-        "reps": 10
+       "reps": 10
       },
       {
         "title": "Lunge",
         "weight": "10kg",
-        "sets": 4,
-        "reps": 10
+       "reps": 10
       },
       {
         "title": "Leg Press",
         "weight": "10kg",
-        "sets": 4,
-        "reps": 10
+       "reps": 10
       },
       {
         "title": "Leg Curl",
         "weight": "10kg",
-        "sets": 4,
-        "reps": 10
+       "reps": 10
       }
     ]
   },
@@ -156,26 +138,22 @@
       {
         "title": "Flat Leg Raise",
         "weight": "70kg",
-        "sets": 4,
-        "reps": 10
+       "reps": 10
       },
       {
         "title": "Plank",
         "weight": "10kg",
-        "sets": 4,
-        "reps": 10
+       "reps": 10
       },
       {
         "title": "Sit Up",
         "weight": "10kg",
-        "sets": 4,
-        "reps": 10
+       "reps": 10
       },
       {
         "title": "Crunch",
         "weight": "10kg",
-        "sets": 4,
-        "reps": 10
+       "reps": 10
       }
     ]
   },
@@ -187,26 +165,22 @@
       {
         "title": "Bicep Curl",
         "weight": "10kg",
-        "sets": 4,
-        "reps": 10
+       "reps": 10
       },
       {
         "title": "Hammer Curl",
         "weight": "10kg",
-        "sets": 4,
-        "reps": 10
+       "reps": 10
       },
       {
         "title": "Skull Crusher",
         "weight": "15kg",
-        "sets": 4,
-        "reps": 10
+       "reps": 10
       },
       {
         "title": "Upright Row",
         "weight": "10kg",
-        "sets": 4,
-        "reps": 10
+       "reps": 10
       }
     ]
   },
@@ -218,26 +192,22 @@
       {
         "title": "Bench Press",
         "weight": "25kg",
-        "sets": 4,
-        "reps": 10
+       "reps": 10
       },
       {
         "title": "Incline Bench Press",
         "weight": "20kg",
-        "sets": 4,
-        "reps": 10
+       "reps": 10
       },
       {
         "title": "Chest Fly",
         "weight": "10kg",
-        "sets": 4,
-        "reps": 10
+       "reps": 10
       },
       {
         "title": "Cable Crossover",
         "weight": "10kg",
-        "sets": 4,
-        "reps": 10
+       "reps": 10
       }
     ]
   },
@@ -249,26 +219,22 @@
       {
         "title": "Deadlift (Barbell)",
         "weight": "20kg",
-        "sets": 4,
-        "reps": 10
+       "reps": 10
       },
       {
         "title": "Lat Pull Down (Cable)",
         "weight": "20kg",
-        "sets": 4,
-        "reps": 5
+       "reps": 5
       },
       {
         "title": "Bent Over One Arm Row (Dumbbell)",
         "weight": "20kg",
-        "sets": 4,
-        "reps": 5
+       "reps": 5
       },
       {
         "title": "Chin Up",
         "weight": "0kg",
-        "sets": 4,
-        "reps": 5
+       "reps": 5
       }
     ]
   },
@@ -280,26 +246,22 @@
       {
         "title": "Squat",
         "weight": "70kg",
-        "sets": 4,
-        "reps": 10
+       "reps": 10
       },
       {
         "title": "Lunge",
         "weight": "10kg",
-        "sets": 4,
-        "reps": 10
+       "reps": 10
       },
       {
         "title": "Leg Press",
         "weight": "10kg",
-        "sets": 4,
-        "reps": 10
+       "reps": 10
       },
       {
         "title": "Leg Curl",
         "weight": "10kg",
-        "sets": 4,
-        "reps": 10
+       "reps": 10
       }
     ]
   },
@@ -311,26 +273,22 @@
       {
         "title": "Arnold Press (Dumbbell)",
         "weight": "70kg",
-        "sets": 4,
-        "reps": 10
+       "reps": 10
       },
       {
         "title": "Front Raise (Cable)",
         "weight": "10kg",
-        "sets": 4,
-        "reps": 10
+       "reps": 10
       },
       {
         "title": "Push Press (Barbell)",
         "weight": "10kg",
-        "sets": 4,
-        "reps": 10
+       "reps": 10
       },
       {
         "title": "Overhead Press (Barbell)",
         "weight": "30kg",
-        "sets": 4,
-        "reps": 10
+       "reps": 10
       }
     ]
   },
@@ -342,26 +300,22 @@
       {
         "title": "Flat Leg Raise",
         "weight": "70kg",
-        "sets": 4,
-        "reps": 10
+       "reps": 10
       },
       {
         "title": "Plank",
         "weight": "10kg",
-        "sets": 4,
-        "reps": 10
+       "reps": 10
       },
       {
         "title": "Sit Up",
         "weight": "10kg",
-        "sets": 4,
-        "reps": 10
+       "reps": 10
       },
       {
         "title": "Crunch",
         "weight": "10kg",
-        "sets": 4,
-        "reps": 10
+       "reps": 10
       }
     ]
   },
@@ -373,26 +327,22 @@
       {
         "title": "Bicep Curl",
         "weight": "10kg",
-        "sets": 4,
-        "reps": 10
+       "reps": 10
       },
       {
         "title": "Hammer Curl",
         "weight": "10kg",
-        "sets": 4,
-        "reps": 10
+       "reps": 10
       },
       {
         "title": "Skull Crusher",
         "weight": "15kg",
-        "sets": 4,
-        "reps": 10
+       "reps": 10
       },
       {
         "title": "Upright Row",
         "weight": "10kg",
-        "sets": 4,
-        "reps": 10
+       "reps": 10
       }
     ]
   },
@@ -404,26 +354,22 @@
       {
         "title": "Bench Press",
         "weight": "25kg",
-        "sets": 4,
-        "reps": 10
+       "reps": 10
       },
       {
         "title": "Incline Bench Press",
         "weight": "20kg",
-        "sets": 4,
-        "reps": 10
+       "reps": 10
       },
       {
         "title": "Chest Fly",
         "weight": "10kg",
-        "sets": 4,
-        "reps": 10
+       "reps": 10
       },
       {
         "title": "Cable Crossover",
         "weight": "10kg",
-        "sets": 4,
-        "reps": 10
+       "reps": 10
       }
     ]
   },
@@ -435,26 +381,22 @@
       {
         "title": "Deadlift (Barbell)",
         "weight": "20kg",
-        "sets": 4,
-        "reps": 10
+       "reps": 10
       },
       {
         "title": "Lat Pull Down (Cable)",
         "weight": "20kg",
-        "sets": 4,
-        "reps": 5
+       "reps": 5
       },
       {
         "title": "Bent Over One Arm Row (Dumbbell)",
         "weight": "20kg",
-        "sets": 4,
-        "reps": 5
+       "reps": 5
       },
       {
         "title": "Chin Up",
         "weight": "0kg",
-        "sets": 4,
-        "reps": 5
+       "reps": 5
       }
     ]
   },
@@ -466,26 +408,22 @@
       {
         "title": "Arnold Press (Dumbbell)",
         "weight": "70kg",
-        "sets": 4,
-        "reps": 10
+       "reps": 10
       },
       {
         "title": "Front Raise (Cable)",
         "weight": "10kg",
-        "sets": 4,
-        "reps": 10
+       "reps": 10
       },
       {
         "title": "Push Press (Barbell)",
         "weight": "10kg",
-        "sets": 4,
-        "reps": 10
+       "reps": 10
       },
       {
         "title": "Overhead Press (Barbell)",
         "weight": "30kg",
-        "sets": 4,
-        "reps": 10
+       "reps": 10
       }
     ]
   },
@@ -497,26 +435,22 @@
       {
         "title": "Squat",
         "weight": "70kg",
-        "sets": 4,
-        "reps": 10
+       "reps": 10
       },
       {
         "title": "Lunge",
         "weight": "10kg",
-        "sets": 4,
-        "reps": 10
+       "reps": 10
       },
       {
         "title": "Leg Press",
         "weight": "10kg",
-        "sets": 4,
-        "reps": 10
+       "reps": 10
       },
       {
         "title": "Leg Curl",
         "weight": "10kg",
-        "sets": 4,
-        "reps": 10
+       "reps": 10
       }
     ]
   },
@@ -528,26 +462,22 @@
       {
         "title": "Bicep Curl",
         "weight": "10kg",
-        "sets": 4,
-        "reps": 10
+       "reps": 10
       },
       {
         "title": "Hammer Curl",
         "weight": "10kg",
-        "sets": 4,
-        "reps": 10
+       "reps": 10
       },
       {
         "title": "Skull Crusher",
         "weight": "15kg",
-        "sets": 4,
-        "reps": 10
+       "reps": 10
       },
       {
         "title": "Upright Row",
         "weight": "10kg",
-        "sets": 4,
-        "reps": 10
+       "reps": 10
       }
     ]
   },
@@ -559,26 +489,22 @@
       {
         "title": "Bench Press",
         "weight": "25kg",
-        "sets": 4,
-        "reps": 10
+       "reps": 10
       },
       {
         "title": "Incline Bench Press",
         "weight": "20kg",
-        "sets": 4,
-        "reps": 10
+       "reps": 10
       },
       {
         "title": "Chest Fly",
         "weight": "10kg",
-        "sets": 4,
-        "reps": 10
+       "reps": 10
       },
       {
         "title": "Cable Crossover",
         "weight": "10kg",
-        "sets": 4,
-        "reps": 10
+       "reps": 10
       }
     ]
   },
@@ -590,26 +516,22 @@
       {
         "title": "Deadlift (Barbell)",
         "weight": "20kg",
-        "sets": 4,
-        "reps": 10
+       "reps": 10
       },
       {
         "title": "Lat Pull Down (Cable)",
         "weight": "20kg",
-        "sets": 4,
-        "reps": 5
+       "reps": 5
       },
       {
         "title": "Bent Over One Arm Row (Dumbbell)",
         "weight": "20kg",
-        "sets": 4,
-        "reps": 5
+       "reps": 5
       },
       {
         "title": "Chin Up",
         "weight": "0kg",
-        "sets": 4,
-        "reps": 5
+       "reps": 5
       }
     ]
   },
@@ -621,26 +543,22 @@
       {
         "title": "Arnold Press (Dumbbell)",
         "weight": "70kg",
-        "sets": 4,
-        "reps": 10
+       "reps": 10
       },
       {
         "title": "Front Raise (Cable)",
         "weight": "10kg",
-        "sets": 4,
-        "reps": 10
+       "reps": 10
       },
       {
         "title": "Push Press (Barbell)",
         "weight": "10kg",
-        "sets": 4,
-        "reps": 10
+       "reps": 10
       },
       {
         "title": "Overhead Press (Barbell)",
         "weight": "30kg",
-        "sets": 4,
-        "reps": 10
+       "reps": 10
       }
     ]
   },
@@ -652,26 +570,22 @@
       {
         "title": "Squat",
         "weight": "70kg",
-        "sets": 4,
-        "reps": 10
+       "reps": 10
       },
       {
         "title": "Lunge",
         "weight": "10kg",
-        "sets": 4,
-        "reps": 10
+       "reps": 10
       },
       {
         "title": "Leg Press",
         "weight": "10kg",
-        "sets": 4,
-        "reps": 10
+       "reps": 10
       },
       {
         "title": "Leg Curl",
         "weight": "10kg",
-        "sets": 4,
-        "reps": 10
+       "reps": 10
       }
     ]
   },
@@ -683,26 +597,22 @@
       {
         "title": "Flat Leg Raise",
         "weight": "70kg",
-        "sets": 4,
-        "reps": 10
+       "reps": 10
       },
       {
         "title": "Plank",
         "weight": "10kg",
-        "sets": 4,
-        "reps": 10
+       "reps": 10
       },
       {
         "title": "Sit Up",
         "weight": "10kg",
-        "sets": 4,
-        "reps": 10
+       "reps": 10
       },
       {
         "title": "Crunch",
         "weight": "10kg",
-        "sets": 4,
-        "reps": 10
+       "reps": 10
       }
     ]
   },
@@ -714,26 +624,22 @@
       {
         "title": "Bicep Curl",
         "weight": "10kg",
-        "sets": 4,
-        "reps": 10
+       "reps": 10
       },
       {
         "title": "Hammer Curl",
         "weight": "10kg",
-        "sets": 4,
-        "reps": 10
+       "reps": 10
       },
       {
         "title": "Skull Crusher",
         "weight": "15kg",
-        "sets": 4,
-        "reps": 10
+       "reps": 10
       },
       {
         "title": "Upright Row",
         "weight": "10kg",
-        "sets": 4,
-        "reps": 10
+       "reps": 10
       }
     ]
   },
@@ -745,26 +651,22 @@
       {
         "title": "Bench Press",
         "weight": "25kg",
-        "sets": 4,
-        "reps": 10
+       "reps": 10
       },
       {
         "title": "Incline Bench Press",
         "weight": "20kg",
-        "sets": 4,
-        "reps": 10
+       "reps": 10
       },
       {
         "title": "Chest Fly",
         "weight": "10kg",
-        "sets": 4,
-        "reps": 10
+       "reps": 10
       },
       {
         "title": "Cable Crossover",
         "weight": "10kg",
-        "sets": 4,
-        "reps": 10
+       "reps": 10
       }
     ]
   },
@@ -776,26 +678,22 @@
       {
         "title": "Deadlift (Barbell)",
         "weight": "20kg",
-        "sets": 4,
-        "reps": 10
+       "reps": 10
       },
       {
         "title": "Lat Pull Down (Cable)",
         "weight": "20kg",
-        "sets": 4,
-        "reps": 5
+       "reps": 5
       },
       {
         "title": "Bent Over One Arm Row (Dumbbell)",
         "weight": "20kg",
-        "sets": 4,
-        "reps": 5
+       "reps": 5
       },
       {
         "title": "Chin Up",
         "weight": "0kg",
-        "sets": 4,
-        "reps": 5
+       "reps": 5
       }
     ]
   },
@@ -807,26 +705,22 @@
       {
         "title": "Arnold Press (Dumbbell)",
         "weight": "70kg",
-        "sets": 4,
-        "reps": 10
+       "reps": 10
       },
       {
         "title": "Front Raise (Cable)",
         "weight": "10kg",
-        "sets": 4,
-        "reps": 10
+       "reps": 10
       },
       {
         "title": "Push Press (Barbell)",
         "weight": "10kg",
-        "sets": 4,
-        "reps": 10
+       "reps": 10
       },
       {
         "title": "Overhead Press (Barbell)",
         "weight": "30kg",
-        "sets": 4,
-        "reps": 10
+       "reps": 10
       }
     ]
   },
@@ -838,26 +732,22 @@
       {
         "title": "Squat",
         "weight": "70kg",
-        "sets": 4,
-        "reps": 10
+       "reps": 10
       },
       {
         "title": "Lunge",
         "weight": "10kg",
-        "sets": 4,
-        "reps": 10
+       "reps": 10
       },
       {
         "title": "Leg Press",
         "weight": "10kg",
-        "sets": 4,
-        "reps": 10
+       "reps": 10
       },
       {
         "title": "Leg Curl",
         "weight": "10kg",
-        "sets": 4,
-        "reps": 10
+       "reps": 10
       }
     ]
   },
@@ -869,26 +759,22 @@
       {
         "title": "Flat Leg Raise",
         "weight": "70kg",
-        "sets": 4,
-        "reps": 10
+       "reps": 10
       },
       {
         "title": "Plank",
         "weight": "10kg",
-        "sets": 4,
-        "reps": 10
+       "reps": 10
       },
       {
         "title": "Sit Up",
         "weight": "10kg",
-        "sets": 4,
-        "reps": 10
+       "reps": 10
       },
       {
         "title": "Crunch",
         "weight": "10kg",
-        "sets": 4,
-        "reps": 10
+       "reps": 10
       }
     ]
   },
@@ -900,26 +786,22 @@
       {
         "title": "Bicep Curl",
         "weight": "10kg",
-        "sets": 4,
-        "reps": 10
+       "reps": 10
       },
       {
         "title": "Hammer Curl",
         "weight": "10kg",
-        "sets": 4,
-        "reps": 10
+       "reps": 10
       },
       {
         "title": "Skull Crusher",
         "weight": "15kg",
-        "sets": 4,
-        "reps": 10
+       "reps": 10
       },
       {
         "title": "Upright Row",
         "weight": "10kg",
-        "sets": 4,
-        "reps": 10
+       "reps": 10
       }
     ]
   },
@@ -931,26 +813,22 @@
       {
         "title": "Bench Press",
         "weight": "25kg",
-        "sets": 4,
-        "reps": 10
+       "reps": 10
       },
       {
         "title": "Incline Bench Press",
         "weight": "20kg",
-        "sets": 4,
-        "reps": 10
+       "reps": 10
       },
       {
         "title": "Chest Fly",
         "weight": "10kg",
-        "sets": 4,
-        "reps": 10
+       "reps": 10
       },
       {
         "title": "Cable Crossover",
         "weight": "10kg",
-        "sets": 4,
-        "reps": 10
+       "reps": 10
       }
     ]
   },
@@ -962,26 +840,22 @@
       {
         "title": "Deadlift (Barbell)",
         "weight": "20kg",
-        "sets": 4,
-        "reps": 10
+       "reps": 10
       },
       {
         "title": "Lat Pull Down (Cable)",
         "weight": "20kg",
-        "sets": 4,
-        "reps": 5
+       "reps": 5
       },
       {
         "title": "Bent Over One Arm Row (Dumbbell)",
         "weight": "20kg",
-        "sets": 4,
-        "reps": 5
+       "reps": 5
       },
       {
         "title": "Chin Up",
         "weight": "0kg",
-        "sets": 4,
-        "reps": 5
+       "reps": 5
       }
     ]
   },
@@ -993,26 +867,22 @@
       {
         "title": "Arnold Press (Dumbbell)",
         "weight": "70kg",
-        "sets": 4,
-        "reps": 10
+       "reps": 10
       },
       {
         "title": "Front Raise (Cable)",
         "weight": "10kg",
-        "sets": 4,
-        "reps": 10
+       "reps": 10
       },
       {
         "title": "Push Press (Barbell)",
         "weight": "10kg",
-        "sets": 4,
-        "reps": 10
+       "reps": 10
       },
       {
         "title": "Overhead Press (Barbell)",
         "weight": "30kg",
-        "sets": 4,
-        "reps": 10
+       "reps": 10
       }
     ]
   },
@@ -1024,26 +894,22 @@
       {
         "title": "Squat",
         "weight": "70kg",
-        "sets": 4,
-        "reps": 10
+       "reps": 10
       },
       {
         "title": "Lunge",
         "weight": "10kg",
-        "sets": 4,
-        "reps": 10
+       "reps": 10
       },
       {
         "title": "Leg Press",
         "weight": "10kg",
-        "sets": 4,
-        "reps": 10
+       "reps": 10
       },
       {
         "title": "Leg Curl",
         "weight": "10kg",
-        "sets": 4,
-        "reps": 10
+       "reps": 10
       }
     ]
   }

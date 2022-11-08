@@ -64,9 +64,10 @@ const AddSessionPage = () => {
       time: finishTime,
       exercise: newSets,
     });
-  };
+    setAlert({message: "Session Finished", isSuccess: true})  };
 
   return (
+    
     <div className="add-session-page">
       <Alert message={alert.message} success={alert.isSuccess} />
       <AutoComplete onSelect={handleSelect} />

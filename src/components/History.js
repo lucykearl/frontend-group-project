@@ -1,6 +1,6 @@
 import React from "react";
 import JsonData from "../data/history.json";
-
+import  "../styles/history.css"
 
 function History(){
   const DisplayData=JsonData.map(
@@ -11,7 +11,6 @@ function History(){
                   <td>{info.time}</td>
                   <td>{info.exercises.map((exercise) => exercise.title + ", ")}</td>
                   <td>{info.exercises.map((exercise) => exercise.weight + ", ")}</td>
-                  <td>{info.exercises.map((exercise) => exercise.sets + ", ")}</td>
                   <td>{info.exercises.map((exercise) => exercise.reps + ", ")}</td>
               </tr>
           )
@@ -19,15 +18,14 @@ function History(){
   )
 
   return(
-      <div>
-          <table class="table table-striped">
+      <div className="history-table">
+          <table class="table table-striped" id="historytable">
               <thead>
                   <tr>
                   <th>Date</th>
                   <th>Time</th>
                   <th>Title</th>
                   <th>Weight</th>
-                  <th>Sets</th>
                   <th>Reps</th>
                   </tr>
               </thead>
