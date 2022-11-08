@@ -35,6 +35,7 @@ const AutoComplete = ({ onSelect }) => {
       />
       <button
         className="button--add"
+        data-testid='autocomplete-button'
         type="button"
         onClick={() => onSelect(selected)}
       >
