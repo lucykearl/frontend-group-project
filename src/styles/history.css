@@ -10,8 +10,7 @@ table {
     flex-direction: column;
     align-items: center;
     font-size: 3vw;
-    
-}
+    }
 
 tr {
     border-radius: 5px solid;
