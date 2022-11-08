@@ -2,6 +2,7 @@ import { render, screen, waitFor } from "@testing-library/react";
 import { useAuth0 } from "@auth0/auth0-react";
 import App from "../components/App";
 
+
   jest.mock("@auth0/auth0-react");
   const mockedUseAuth0 = jest.mocked(useAuth0, true);
 

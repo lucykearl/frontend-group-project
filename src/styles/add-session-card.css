@@ -60,3 +60,7 @@ label {
         height: 50px;
     }
 }
+div.alert.alert-success {
+    font-size: xx-large;
+    color: #06283d;
+}
