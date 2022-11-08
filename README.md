@@ -1,70 +1,61 @@
-# Getting Started with Create React App
+# **REP**
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### Fitness Tracking App
 
-## Available Scripts
+We built a fitness tracking app for gym goers and anyone interested in fitness to note down their training sessions. We wanted to create an easy, straightforward app for someone to be able to track their progress, see how they improve over time and successfully reach their fitness goals.
 
-In the project directory, you can run:
+---
 
-### `npm start`
+### Included in the app:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- You are able to create a user account
+- Log in and out with ease
+- Add your fitness sessions - this will allow you to select the exercise of your choice (it also includes an autocomplete option if you start to type), note down the weight and the amount of reps you want to complete
+- You are then able to continue to add your sets and finish once you are done
+- 'History' in the bottom navigation bar will allow you to view your previous fitness sessions
+- The homepage will show your progess via tables, giving you a visual representation of your progression
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+### Installation Instructions:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- Run `git clone https://github.com/lucykearl/frontend-group-project` into the console
+- `cd` into the new directory
+- Run `npm install`
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### How to use:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- Once the app is opened you can create an account, you will then be presented with the home screen
+- Using the navigation bar along the bottom of the screen, you simply press the '+' symbol and you can then insltantly start adding your sessions
+- You start off by selecting the exercise of your choice using either the drop down list or you can start typing and an autocomplete will appear with suggestions
+- Once you have selected the exercise you want to include, press 'ADD' then type in the weight and the amout of reps you want to complete
+- If you want to add another set of the same exercise, just press 'ADD SET' and this will allow you to keep the same weight and rep of the previous set or edit it to increase or decrease
+- If you make a mistake, there is the option to remove the set by pressing 'REMOVE' next to the set you wish to get rid of
+- You can do this until you have noted down all the exercises you want to include in your session that day
+- After you have noted everything down, press 'FINISH' and an alert will present at the top stating 'SESSION FINISHED'
+- You can view any of your previous session by pressing 'HISORY' in the navigation bar which will produce a table
+- The homescreen will show you a bar chart of your progress
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
+### Technolgies used:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+| Frontend | Backend |
+| :------: | :-----: |
+|  React   | MongoDB |
+|   CSS    | Node JS |
+|   NPM    | Express |
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- Packages including react-router and axios
+- JEST Snapshot testing
+- Authorisation to allow users to sign-up and log in
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+---
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### Progress for the app:
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- Adding social media links and the ability to connect with friends or a wider community
+- Add different types of equipment, exercises and video demos
+- Access to a personal trainer for a personalised workout plan based on your progression as well as offering support
