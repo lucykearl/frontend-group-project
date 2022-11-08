@@ -12,7 +12,7 @@ exports[`add session the component renders 1`] = `
         class="MuiAutocomplete-root MuiAutocomplete-hasPopupIcon css-gcwvw8-MuiAutocomplete-root"
       >
         <div
-          class="MuiFormControl-root MuiFormControl-fullWidth MuiTextField-root css-wb57ya-MuiFormControl-root-MuiTextField-root"
+          class="MuiFormControl-root MuiFormControl-fullWidth MuiTextField-root dropdown--menu css-wb57ya-MuiFormControl-root-MuiTextField-root"
         >
           <label
             class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-outlined MuiFormLabel-colorPrimary MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-outlined css-14s5rfu-MuiFormLabel-root-MuiInputLabel-root"
@@ -80,11 +80,18 @@ exports[`add session the component renders 1`] = `
         </div>
       </div>
       <button
+        class="button--add"
+        testid="autocomplete-button"
         type="button"
       >
         Add
       </button>
     </div>
+    <button
+      class="button--finish"
+    >
+      Finish
+    </button>
   </div>
 </DocumentFragment>
 `;
