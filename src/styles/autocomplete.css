@@ -1,11 +1,11 @@
 .auto-complete {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 @media (max-width: 480px) {
-    .auto-complete {
-        display: flex;
-        flex-direction: column;
-    }
+  .auto-complete {
+    display: flex;
+    flex-direction: column;
+  }
 }

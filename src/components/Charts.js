@@ -1,32 +1,34 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
-import 'chart.js/auto';
-import { Chart } from 'react-chartjs-2';
+import "chart.js/auto";
+import { Chart } from "react-chartjs-2";
 
 const Charts = () => {
-
-  const [historyData, setHistoryData] = useState([])
+  const [historyData, setHistoryData] = useState([]);
   const [chartData, setChartData] = useState({
-    labels: '',
+    labels: "",
     datasets: [
       {
         label: "Number of exercises per session",
-        data: '',
+        data: "",
         backgroundColor: "#256d85",
       },
     ],
   });
 
   const getHistory = async () => {
-    await axios.get('http://localhost:5000/session')
-    .then((res) => setHistoryData(res.data))
-  }
+    await axios
+      .get("http://localhost:5000/session")
+      .then((res) => setHistoryData(res.data));
+  };
 
   useEffect(() => {
-    getHistory()
+    getHistory();
 
-    const date = historyData.slice(-7).map((data) => data.date)
-    const exercises = historyData.slice(-7).map((data) => data.exercises?.length)
+    const date = historyData.slice(-7).map((data) => data.date);
+    const exercises = historyData
+      .slice(-7)
+      .map((data) => data.exercises?.length);
 
     setChartData({
       labels: date,
@@ -37,8 +39,8 @@ const Charts = () => {
           backgroundColor: "#256d85",
         },
       ],
-    })
-  }, [historyData])
+    });
+  }, [historyData]);
 
   return (
     <div className="graph---wrapper">

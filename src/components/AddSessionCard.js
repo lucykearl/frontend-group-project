@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "../styles/app.css";
-import "../styles/add-session-card.css"
+import "../styles/add-session-card.css";
 
 const AddSessionCard = ({ title, setID, onHandleRemoveSet, onHandleSets }) => {
   const [inputs, setInputs] = useState([

@@ -5,13 +5,15 @@ import AddSessionCard from "./AddSessionCard";
 import AutoComplete from "./AutoComplete";
 import Alert from "./Alert";
 import "../styles/app.css";
-import "../styles/add-session.css"
+import "../styles/add-session.css";
 
 const AddSessionPage = () => {
   const [selectedOptions, setSelectedOptions] = useState([]);
   const [newSets, setNewSets] = useState([]);
   const [setID, setSetID] = useState(1);
-  const [alert, setAlert] = useState({alert: {message: "", isSuccess: false}})
+  const [alert, setAlert] = useState({
+    alert: { message: "", isSuccess: false },
+  });
 
   const startTime = moment();
   let finishTime = "";
@@ -25,20 +27,21 @@ const AddSessionPage = () => {
   };
 
   const handleSelect = (selected) => {
+    let filterArray = [];
 
-    let filterArray = []
-    
     if (selected) {
-      filterArray = selectedOptions.filter((exercise) => exercise.title === selected.title)
+      filterArray = selectedOptions.filter(
+        (exercise) => exercise.title === selected.title
+      );
     }
-    
-    if (selected === '' || selected === null) {
-      setAlert({message: "Please select an exercise", isSuccess: false})
+
+    if (selected === "" || selected === null) {
+      setAlert({ message: "Please select an exercise", isSuccess: false });
     } else if (filterArray.length >= 1) {
-      setAlert({message: "Exercise already set", isSuccess: false})
-      filterArray = []
+      setAlert({ message: "Exercise already set", isSuccess: false });
+      filterArray = [];
     } else {
-      setAlert({message: "", isSuccess: true})
+      setAlert({ message: "", isSuccess: true });
       setSelectedOptions([...selectedOptions, selected]);
     }
   };
@@ -52,7 +55,6 @@ const AddSessionPage = () => {
     const removedSetID = set[0].setID;
     const removeSet = newSets.findIndex((set) => set.setID === removedSetID);
     newSets.splice(removeSet, 1);
-    console.log(newSets);
   };
 
   const handleFinish = (e) => {
@@ -64,10 +66,10 @@ const AddSessionPage = () => {
       time: finishTime,
       exercises: newSets,
     });
-    setAlert({message: "Session Finished", isSuccess: true})  };
+    setAlert({ message: "Session Finished", isSuccess: true });
+  };
 
   return (
-    
     <div className="add-session-page">
       <Alert message={alert.message} success={alert.isSuccess} />
       <AutoComplete onSelect={handleSelect} />

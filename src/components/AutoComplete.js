@@ -3,7 +3,7 @@ import { Autocomplete, TextField } from "@mui/material";
 import axios from "axios";
 import data from "../data/exercises.json";
 import "../styles/app.css";
-import "../styles/autocomplete.css"
+import "../styles/autocomplete.css";
 
 const AutoComplete = ({ onSelect }) => {
   const [exercises, setExercises] = useState([]);
@@ -35,7 +35,7 @@ const AutoComplete = ({ onSelect }) => {
       />
       <button
         className="button--add"
-        data-testid='autocomplete-button'
+        data-testid="autocomplete-button"
         type="button"
         onClick={() => onSelect(selected)}
       >
