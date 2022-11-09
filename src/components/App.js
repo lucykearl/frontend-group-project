@@ -9,7 +9,7 @@ import Charts from "./Charts";
 import { BrowserRouter as Router } from "react-router-dom";
 import "../index.css";
 
-function App() {
+const App = () => {
   const { isLoading, isAuthenticated, error, user, loginWithRedirect, logout } =
     useAuth0();
 

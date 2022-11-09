@@ -1,25 +1,48 @@
 import React, { useEffect, useState } from "react";
-import { Bar } from "react-chartjs-2";
-import { Chart, registerables } from "chart.js";
-import data from "../data/history.json";
+import axios from "axios";
+import 'chart.js/auto';
+import { Chart } from 'react-chartjs-2';
 
 const Charts = () => {
+
+  const [historyData, setHistoryData] = useState([])
   const [chartData, setChartData] = useState({
-    labels: data.slice(0, 6).map((data) => data.date),
+    labels: '',
     datasets: [
       {
         label: "Number of exercises per session",
-        data: data.map((data) => data.exercises?.length),
+        data: '',
         backgroundColor: "#256d85",
       },
     ],
   });
 
-  Chart.register(...registerables);
+  const getHistory = async () => {
+    await axios.get('http://localhost:5000/session')
+    .then((res) => setHistoryData(res.data))
+  }
+
+  useEffect(() => {
+    getHistory()
+
+    const date = historyData.slice(-7).map((data) => data.date)
+    const exercises = historyData.slice(-7).map((data) => data.exercises?.length)
+
+    setChartData({
+      labels: date,
+      datasets: [
+        {
+          label: "Number of exercises per session",
+          data: exercises,
+          backgroundColor: "#256d85",
+        },
+      ],
+    })
+  }, [historyData])
 
   return (
     <div className="graph---wrapper">
-      <Bar data={chartData} />
+      <Chart type="bar" data={chartData} />
     </div>
   );
 };

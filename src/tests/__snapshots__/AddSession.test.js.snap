@@ -81,7 +81,7 @@ exports[`add session the component renders 1`] = `
       </div>
       <button
         class="button--add"
-        testid="autocomplete-button"
+        data-testid="autocomplete-button"
         type="button"
       >
         Add
