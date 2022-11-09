@@ -104,10 +104,10 @@
 
 .add-session-page {
   overflow-y: overlay;
-  max-height: 900px;
+  max-height: 500px;
   padding-top: 2%;
 }
 
 .graph---wrapper {
-padding: 0% 5% 8% 5%;
+  padding: 0% 5% 8% 5%;
 }
