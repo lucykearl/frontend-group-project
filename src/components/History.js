@@ -1,11 +1,21 @@
-import React from "react";
-import JsonData from "../data/history.json";
+import React, { useEffect, useState } from "react";
+import axios from "axios";
 import "../styles/history.css"
 import "../styles/app.css";
 
+const History = () => {
+    const [historyData, setHistoryData] = useState([])
 
-function History(){
-  const DisplayData=JsonData.map(
+    const getHistory = async () => {
+        await axios.get('http://localhost:5000/session')
+        .then((res) => setHistoryData(res.data))
+    }
+
+    useEffect(() => {
+        getHistory()
+    }, [])
+
+  const DisplayData=historyData.map(
       (info)=>{
           return(
               <tr>

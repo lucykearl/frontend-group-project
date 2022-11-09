@@ -4,6 +4,7 @@ table {
     text-align: center;
     width: auto;
     color:#06283d;
+    margin-bottom: 20vw;
 }
 .history-table {
     display: flex;

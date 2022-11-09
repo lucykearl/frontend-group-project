@@ -62,7 +62,7 @@ const AddSessionPage = () => {
     axios.post("http://localhost:5000/session", {
       date: date,
       time: finishTime,
-      exercise: newSets,
+      exercises: newSets,
     });
     setAlert({message: "Session Finished", isSuccess: true})  };
 
