@@ -7,10 +7,22 @@ const AddSessionCard = ({ title, setID, onHandleRemoveSet, onHandleSets }) => {
     { setID: setID, title: title, weight: "", reps: "" },
   ]);
 
-  const handleFormChange = (index, event) => {
-    let data = [...inputs];
-    data[index][event.target.name] = event.target.value;
-    setInputs(data);
+  const handleOnChange = (index, e) => {
+    const checked = e.target.checked;
+
+    if (checked === true) {
+      let newInputs = {
+        setID: setID,
+        title: title,
+        weight: inputs[inputs.length - 1].weight,
+        reps: inputs[inputs.length - 1].reps,
+      };
+      onHandleSets(newInputs);
+    } else if (checked === false) {
+      let data = [...inputs];
+      let removedSet = data.splice(index, 1);
+      onHandleRemoveSet(removedSet);
+    }
   };
 
   const handleAddSet = (e) => {
@@ -22,14 +34,11 @@ const AddSessionCard = ({ title, setID, onHandleRemoveSet, onHandleSets }) => {
       reps: inputs[inputs.length - 1].reps,
     };
     setInputs([...inputs, newInputs]);
-    onHandleSets(newInputs);
   };
 
-  const handleRemoveSet = (index, e) => {
-    e.preventDefault();
+  const handleFormChange = (index, event) => {
     let data = [...inputs];
-    let removedSet = data.splice(index, 1);
-    onHandleRemoveSet(removedSet);
+    data[index][event.target.name] = event.target.value;
     setInputs(data);
   };
 
@@ -56,14 +65,12 @@ const AddSessionCard = ({ title, setID, onHandleRemoveSet, onHandleSets }) => {
                   value={input.reps}
                   onChange={(event) => handleFormChange(index, event)}
                 ></input>
-                <div className="button-container">
-                  <button
-                    className="button--remove"
-                    onClick={(event) => handleRemoveSet(index, event)}
-                  >
-                    REMOVE
-                  </button>
-                </div>
+                <input
+                  type="checkbox"
+                  id="complete"
+                  name="complete-set"
+                  onChange={(event) => handleOnChange(index, event)}
+                />
               </div>
             );
           })}
